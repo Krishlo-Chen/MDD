@@ -1,3 +1,6 @@
 0: A person walks forward, moving from left to right,making a single large step in the middle.
 1: A person walks straight ahead for a few steps, breaks into a running jump, lands and continues to walk.
 2: A person drops their arms and walks left to the chair to sit down.
+3: A person dances in a simple waltz box pattern.
+4: A person walks forward knocks on a door then turns around and walks away.
+5: A person swings the hands and warms up the left and right arms.
