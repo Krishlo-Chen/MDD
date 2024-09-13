@@ -4,3 +4,5 @@
 3: A person dances in a simple waltz box pattern.
 4: A person walks forward knocks on a door then turns around and walks away.
 5: A person swings the hands and warms up the left and right arms.
+6: A person does jumping jacks.
+7: A person appears to slam or throw something down with their left hand.
