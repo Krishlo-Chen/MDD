@@ -50,20 +50,20 @@
 <!--                        AIxVR 2025-->
 <!--                    </div>-->
                     <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://krishlo-chen.github.io/">Jia Chen</a>,</span>
-                        <span class="author-block">
-              Fangze Liu,
-                            <!--              <a href="https://yxmu.foo/">Fangze Liu</a>,</span>-->
-            <span class="author-block">
-              <a href="https://scholar.google.com/citations?hl=en&user=unmhsbEAAAAJ&view_op=list_works&sortby=pubdate">Yingying Wang</a>.
-            </span>
+<!--            <span class="author-block">-->
+<!--              <a href="https://krishlo-chen.github.io/">Jia Chen</a>,</span>-->
+<!--                        <span class="author-block">-->
+<!--              Fangze Liu,-->
+<!--                            &lt;!&ndash;              <a href="https://yxmu.foo/">Fangze Liu</a>,</span>&ndash;&gt;-->
+<!--            <span class="author-block">-->
+<!--              <a href="https://scholar.google.com/citations?hl=en&user=unmhsbEAAAAJ&view_op=list_works&sortby=pubdate">Yingying Wang</a>.-->
+<!--            </span>-->
                     </div>
 
-                    <div class="is-size-5 publication-authors">
-                        <span class="author-block">McMaster University, Canada</span>
-                        <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
-                    </div>
+<!--                    <div class="is-size-5 publication-authors">-->
+<!--                        <span class="author-block">McMaster University, Canada</span>-->
+<!--                        &lt;!&ndash; <span class="author-block"><sup>2</sup>Google Research</span> &ndash;&gt;-->
+<!--                    </div>-->
 
                     <div class="column has-text-centered">
                         <div class="publication-links">
@@ -138,15 +138,37 @@
                     type="video/mp4">
           </video>
         </div> -->
+<style>
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+    }
 
-            <div id="video-container" style="width: 100%; height: auto;">
-              <video id="video" muted controls playsinline>
-                <source src="./static/video/VR.mp4" type="video/mp4" >
-              </video>
-        <!--      <span style="font-size:12px">* This video contains audio.</span>-->
-            </div>
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+</style>
+
+<div class="video-container">
+    <iframe src="https://www.youtube.com/embed/LeJh1HYgVMY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!--            <div id="video-container" style="width: 100%; height: auto;">-->
+<!--              <video id="video"  controls playsinline>-->
+<!--                <source src="./static/video/intro.mp4" type="video/mp4" >-->
+<!--              </video>-->
+<!--              <span style="font-size:12px">* This video contains audio.</span>-->
+<!--            </div>-->
 
           </div>
+
 </section>
 
 
